@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     function displayGifs() {
         var topic = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=oN3X6jHiRb3vdFf66lYv6z1VmUGL2Hb6&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=oN3X6jHiRb3vdFf66lYv6z1VmUGL2Hb6&limit=10";
         var test = $(this);
          $("#topic-gifs").empty();
 
