@@ -1,0 +1,28 @@
+/*Basic styling*/
+
+* {
+	text-align: center;
+}
+
+body {
+	background-color: #d8e5e9;
+}
+
+.jumbotron h2 {
+	font-size: 80px;
+	font-weight: bold;
+}
+
+button {
+	margin-right: 5px; 
+	margin-left: 5px;
+}
+
+.etc {
+	float: left;
+}
+
+.jumbotron h2 {
+	font-size: 80px;
+	font-weight: bold;
+}
